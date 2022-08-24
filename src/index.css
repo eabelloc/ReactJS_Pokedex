@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+ /*TODO: Ver Cual diseño de boton me conviene :3*/
+button {
+  background-color: #e24a1c;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+  gap: 1rem;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #e4eadd;
+  color: #323335;
+}
+
+h1, h2 {
+  color: #e24a1c;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+

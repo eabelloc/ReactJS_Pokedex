@@ -1,0 +1,49 @@
+.App {
+    display: flex;
+    justify-content: center;
+    font-family: Calibri;
+    font-size: 24px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.TitleSection {
+    background-color: #323335;
+    padding: 4rem;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e4eadd;
+  }
+  
+.TitleSection input {
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #323335;
+    font-size: 18px;
+    padding-left: 10px;
+    text-align: center;
+  }
+  
+.TitleSection button {
+    width: 180px;
+    height: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    color: #e4eadd;
+    background-color: #e24a1c
+  }
+  
+.TitleSection button:hover {
+    cursor: pointer;
+  }
